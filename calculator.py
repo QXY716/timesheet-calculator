@@ -4,7 +4,8 @@ import tkinter as tk
 import os
 import sys
 
-filepath = os.path.join(os.path.dirname(os.path.realpath(sys.executable)),'timesheet_input.xls')
+# filepath = os.path.join(os.path.dirname(os.path.realpath(sys.executable)),'timesheet_input.xls')
+filepath = './timesheet_input.xls'
 
 def create_table():
     workbook = xlwt.Workbook(encoding= 'ascii')
